@@ -1,0 +1,23 @@
+body{
+  padding: 2em;
+}
+.App-container{
+  display: flex;
+  flex-direction: column
+}
+.App-notification{
+  padding: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  margin: 1em;
+  border-left: 2px solid red;
+position: relative;
+}
+p{
+  font-size: 2em;
+}
+.remove-notification{
+  position: absolute;
+  right: .5em;
+  top: .5em;
+  font-size: 2em;
+}
